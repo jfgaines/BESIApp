@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jfgaines/Documents/BESI/BESI App/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/jfgaines/Documents/BESI/BESI App/app/build/intermediates/pre-dexed/debug/classes-0f8b67c5890ee2fc16869f6820390f916f01ca8c.jar" />
+    </item>
+    <item
+        jar="/Users/jfgaines/Documents/BESI/BESI App/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/jfgaines/Documents/BESI/BESI App/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-01a04c37905040e9a79d7991baf61cc274837850.jar" />
+    </item>
+    <item
+        jar="/Users/jfgaines/Documents/BESI/BESI App/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/jfgaines/Documents/BESI/BESI App/app/build/intermediates/pre-dexed/debug/classes-6da86d0219368cc1ba292f8115fe4605e4271976.jar" />
+    </item>
+    <item
+        jar="/Users/jfgaines/Documents/BESI/BESI App/app/libs/ormlite-core-4.48.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="/Users/jfgaines/Documents/BESI/BESI App/app/build/intermediates/pre-dexed/debug/ormlite-core-4.48-6a58a0d35bc42bea67eb82757361f1d039ff26a2.jar" />
+    </item>
+    <item
+        jar="/Users/jfgaines/Documents/BESI/BESI App/app/libs/ormlite-android-4.48.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="/Users/jfgaines/Documents/BESI/BESI App/app/build/intermediates/pre-dexed/debug/ormlite-android-4.48-1b8afcd92a91e93b1919b7600d5888cc3d02ed7c.jar" />
+    </item>
+    <item
+        jar="/Users/jfgaines/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/jfgaines/Documents/BESI/BESI App/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-89d80e3c819863487c03cd3434d69e1cce6449d1.jar" />
+    </item>
+
+</items>

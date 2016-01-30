@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent" android:layout_width="match_parent"
+    android:background="#E1BEE7">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:id="@+id/CareTakerRegister"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="#ff000000"
+             />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/textView23"
+            android:layout_centerHorizontal="true">
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:id="@+id/CaregiverFirstNameText"
+                android:hint="First"
+                android:background="@drawable/loginboxes"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/name"
+                android:singleLine="true"
+                android:focusable="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="textCapWords" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:id="@+id/CaregiverLastNameText"
+                android:hint="Last"
+                android:background="@drawable/loginboxes"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/name"
+                android:singleLine="true"
+                android:inputType="textCapWords" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose your username"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="#ff000000" />
+
+        <EditText
+            android:id="@+id/CaregiverUsernameText"
+            android:hint="Username"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/loginboxes"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/user"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create a password"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="#ff000000"
+            />
+
+        <EditText
+            android:id="@+id/CaregiverPasswordText"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:background="@drawable/loginboxes"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/password"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ConfirmPwd"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="#ff000000"
+            android:id="@+id/ConfirmPwd" />
+
+        <EditText
+            android:id="@+id/CaregiverConfirmPasswordText"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:background="@drawable/loginboxes"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/password"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile phone"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="#ff000000" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/CaregiverMobileNumberText"
+            android:hint="Contact Number"
+            android:background="@drawable/loginboxes"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Create Your BESI Account"
+        android:id="@+id/textView23"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout16"
+        android:layout_alignBottom="@+id/CareTakerRegister"
+        android:layout_toRightOf="@+id/textView23"
+        android:layout_toEndOf="@+id/textView23">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/imageView9"
+            android:background="@drawable/caregivericon"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/CaregiverAccountCreateBtn"
+            android:layout_alignStart="@+id/CaregiverAccountCreateBtn"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Caregiver"
+            android:id="@+id/textView20"
+            android:layout_below="@+id/imageView9"
+            android:layout_alignRight="@+id/CaregiverAccountCreateBtn"
+            android:layout_alignEnd="@+id/CaregiverAccountCreateBtn"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/CaregiverAccountCreateBtn"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:text="Next"
+            android:background="@drawable/loginbtnanimate"
+            android:layout_below="@+id/CareTakerRegister"
+            android:layout_toRightOf="@+id/textView23"
+            android:layout_toEndOf="@+id/textView23"
+            android:textSize="36dp"
+            android:onClick="NextonClick"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp" />
+    </LinearLayout>
+
+</RelativeLayout>
+

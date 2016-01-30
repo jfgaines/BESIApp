@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="App_Grey">#545454</color>
+    <color name="white">#fff</color>
+    <color name="orange">#000</color>
+    <color name="blue">#0091EA</color>
+    <color name="purple">#D6D6F5</color>
+</resources>

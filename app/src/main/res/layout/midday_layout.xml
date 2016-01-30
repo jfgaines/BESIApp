@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="#000"
+
+    >
+
+    <fragment
+        android:layout_width="625dp"
+        android:layout_height="match_parent"
+        android:id="@+id/midday_button_panel1"
+        android:layout_marginRight="10dp"
+        class="com.jutech.besi.Activities.Midday_Button_Panel"
+        tools:layout="@layout/midday_activity_panel" />
+
+    <fragment
+        android:layout_width="600dp"
+        android:layout_height="match_parent"
+        android:id="@+id/midday_activity_panel1"
+        class="com.jutech.besi.Activities.Midday_Activity_Panel"
+        tools:layout="@layout/midday_button_panel" />
+
+
+
+
+
+</LinearLayout>

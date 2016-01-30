@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ddcefffc">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Mid-Day"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp">
+        <CheckBox
+            android:id="@+id/Lunch_Example_Checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Serve Lunch"/>
+        <CheckBox
+            android:id="@+id/Medicine_Example_Checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Administer Medications"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="80dp"
+            android:textStyle="bold"
+            android:text="Add New Task"
+            android:id="@+id/add_tast_button" />
+        <Button
+            android:id="@+id/Check_Tasks_Button1"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="Check All Tasks"/>
+        <Button
+            android:id="@+id/Done_Button1"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="Done"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp">
+
+        <Button
+            android:id="@+id/Back_To_DailyTasks_Button1"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="110dp"
+            android:text="Back"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

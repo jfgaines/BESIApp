@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="fill_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.jfgaines.besiapp.PWDreport"
+    android:background="#E1BEE7">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp">
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:text="Mood"
+            android:id="@+id/MoodBtn"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:onClick="DepressiononClick"
+            android:background="@drawable/buttonanimate"
+            android:textSize="36dp"
+            android:textStyle="bold"
+            android:textColor="#010101"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:text="Agitation"
+            android:id="@+id/AgitationBtn"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:onClick="AgitationonClick"
+            android:background="@drawable/buttonanimate"
+            android:textSize="36dp"
+            android:textStyle="bold"
+            android:textColor="#010101" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:text="Sleep Quality"
+            android:id="@+id/SleepQualityBtn"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:onClick="SleeponClick"
+            android:background="@drawable/buttonanimate"
+            android:textSize="36dp"
+            android:textStyle="bold"
+            android:textColor="#010101"
+            android:layout_gravity="top" />
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout23"
+        android:layout_alignParentEnd="false"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageButton"
+            android:src="@drawable/home"
+            android:onClick="HomeonClick"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Home"
+            android:id="@+id/textView35"
+            android:textSize="36dp"
+            android:textStyle="bold"
+            android:textColor="#010101"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:text="Summary"
+        android:id="@+id/button"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="3"
+        android:background="@drawable/buttonanimate"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        android:textColor="#010101"
+        android:layout_below="@+id/gridLayout2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/WelcomePopup"
+    android:background="#6cb5b5ff"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, Clara"
+        android:id="@+id/textView28"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="#ff000000"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:text="Thanks for creating a BESI account.  Use it to sign in and access all the applications."
+        android:textSize="16dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="#ff000000"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="Continue to sign in"
+        android:background="@drawable/loginbtnanimate"
+        android:layout_marginBottom="25dp"
+        android:onClick="NextonClick"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
