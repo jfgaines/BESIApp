@@ -45,6 +45,7 @@ public class CaregiverRegister extends Activity implements View.OnClickListener 
         }
         return databaseHelper;
     }
+    //test
 
     @Override
     protected void onDestroy() {
