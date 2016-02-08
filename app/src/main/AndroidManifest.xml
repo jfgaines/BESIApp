@@ -111,14 +111,6 @@
             android:screenOrientation="sensorLandscape" >
         </activity>
         <activity
-            android:name=".PlayPen"
-            android:label="@string/title_activity_play_pen"
-            android:parentActivityName=".HomeScreen" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.jutech.besi.HomeScreen" />
-        </activity>
-        <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home" >
         </activity>

@@ -26,15 +26,6 @@ public class HomeScreen extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.homescreen_activity);
 
-        /*ViewGroup decorView= (ViewGroup) this.getWindow().getDecorView();
-        LinearLayout root= (LinearLayout) decorView.getChildAt(0);
-        FrameLayout titleContainer= (FrameLayout) root.getChildAt(0);
-        TextView title= (TextView) titleContainer.getChildAt(0);
-        title.setGravity(Gravity.CENTER);*/
-
-        //getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_TITLE);
-        //getSupportActionBar().setCustomView(R.layout.abs_layout);
-
         //receiving usersname from UserId
         final TextView UserName = (TextView) findViewById(R.id.username);
         Bundle usernamedata = getIntent().getExtras();
@@ -103,19 +94,8 @@ public class HomeScreen extends ActionBarActivity {
         startActivity(i);
     }
 
-    /*public void HelponClick(View view){
-        Intent i = new Intent(this,HelpScreen.class);
-        startActivity(i);
-    }*/
-
     public void DailyTaskonClick(View view){
         Intent i = new Intent(this,DailyTask.class);
         startActivity(i);
     }
-
-    /*public void EmergencyonClick(View arg0){
-        Intent callIntent = new Intent(Intent.ACTION_CALL);
-        callIntent.setData(Uri.parse("tel:"+ 911));
-        startActivity(callIntent);
-    }*/
 }

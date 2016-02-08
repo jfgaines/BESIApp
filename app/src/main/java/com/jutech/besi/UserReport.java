@@ -22,7 +22,7 @@ public class UserReport extends ActionBarActivity {
     public void SubmitonClick (View v){
         //small toast message after submitting
         Toast.makeText(getApplicationContext(),"Clara's report saved!",Toast.LENGTH_LONG).show();
-        Intent i = new Intent(this,PWDreport.class);
+        Intent i = new Intent(this,Reports.class);
         startActivity(i);
     }
 
